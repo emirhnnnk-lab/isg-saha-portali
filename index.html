@@ -289,7 +289,7 @@
                 <div class="brand-logo">
                     <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#1fb3c1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
                     <div class="text-left">
-                        <div class="brand-word text-4xl">kruk</div>
+                        <div class="brand-word text-4xl">saha</div>
                         <div class="brand-subtitle">Dış Sahan İSG Portalı</div>
                     </div>
                 </div>
@@ -736,7 +736,7 @@
             <div class="space-y-4">
                 <div>
                     <label class="text-xs font-bold text-slate-400 block mb-1">Vercel Yayın Adresi (QR Kodların Hedefi)</label>
-                    <input type="text" id="settingsServerIpInput" class="w-full bg-[#070b13] border border-slate-800 rounded-xl p-3 text-sm text-white outline-none focus:border-amber-500" placeholder="https://isg-sistem.vercel.app/">
+                    <input type="text" id="settingsServerIpInput" class="w-full bg-[#070b13] border border-slate-800 rounded-xl p-3 text-sm text-white outline-none focus:border-amber-500" placeholder="https://ornek-sunucu.example/">
                     <span class="text-[10px] text-slate-400 mt-1 block">* Telefonda QR okuttuğunda açılacak canlı Vercel adresini buraya girin.</span>
                 </div>
             </div>
@@ -1043,7 +1043,7 @@
         let tasks = JSON.parse(localStorage.getItem('isg_tasks')) || [];
         const experts = initialExperts;
 
-        let serverIp = localStorage.getItem('isg_server_ip') || "https://isg-sistem.vercel.app/";
+        let serverIp = localStorage.getItem('isg_server_ip') || "https://ornek-sunucu.example/";
         let selectedCompanyId = 'comp1';
         let workerSearch = "";
         let workerCategory = "Hepsi";
@@ -1911,7 +1911,7 @@
             if (!company) return;
 
             let textContent = `==================================================\n`;
-            textContent += `               KRUK ISG SAHA RAPORU (DEMO)           \n`;
+            textContent += `               ISG SAHA RAPORU (DEMO)               \n`;
             textContent += `==================================================\n\n`;
             textContent += `DENETLENEN FIRMA: ${company.name}\n`;
             textContent += `DENETIM TARIHI   : ${new Date().toLocaleDateString('tr-TR')}\n\n`;
@@ -2327,7 +2327,7 @@
                     <div class="brand-logo select-none shrink-0">
                         <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#1fb3c1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
                         <div class="text-left">
-                            <span class="brand-word text-2xl block">kruk</span>
+                            <span class="brand-word text-2xl block">saha</span>
                             <span class="brand-subtitle block">İSG Portalı</span>
                         </div>
                     </div>
